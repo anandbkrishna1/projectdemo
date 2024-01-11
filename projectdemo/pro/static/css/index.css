@@ -1,0 +1,108 @@
+main{
+    height: 100svh;
+    width: 100vw;
+}
+.head-nav{
+    width: 100vw;
+    height: 3vh;
+    background-color: black;
+    /* display: flex; */
+    /* color: white; */
+    
+}
+.Announcement_bar{
+    color: white;
+    align-items: center;
+    /* margin-right: 50px; */
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between; 
+    box-sizing: border-box;
+    width: 100vw;
+    height: 55px;
+    background-color: white;
+    align-items: center;
+  
+
+}
+.options{
+    display: flex;
+    color: black;
+    margin-right: 10rem;
+    font-size: 20px;
+    margin-top: 12px;
+    
+}
+.o{
+    margin-top: 20px;
+    margin-right: 3rem; 
+}
+.o:hover{
+    color: red;
+}
+
+.d-flex{
+    margin-top: 18px;
+    margin-left: 5rem;
+}
+.form-control{
+    width: 650px;
+}
+.sub-nav{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    /* background-color: aqua; */
+    align-items: center ;
+    justify-content: space-evenly;
+}
+.spans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 20px;
+    font-size: 15px;
+    padding-top: 1px;
+}
+
+.a:hover{
+    text-decoration: underline;
+}
+.cvr-img2 img{
+    width: 100%;
+} 
+.watches h3{
+    position: absolute;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+.product{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.item{
+    height: 100%;
+    width: 385px;
+}
+.item:hover{
+    border: 1px solid black;
+    transform: scale(1);
+}
+.text{
+    margin-left: 8px;
+   }
+/* .product img{
+    height: 100%;
+    width: 383px;
+    background-color: aliceblue;
+}
+.product2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+} */
